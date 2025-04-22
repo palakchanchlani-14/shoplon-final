@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "158986837829",
+    "project_id": "mpl-lab-dce36",
+    "storage_bucket": "mpl-lab-dce36.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158986837829:android:29e6c813f76094efe4282c",
+        "android_client_info": {
+          "package_name": "com.example.shoplon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9oDwZwWUN5Hzkbskjrq6hBzd_yLJW6VI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
