@@ -30,7 +30,8 @@ class ProductCard extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             ClipRRect(
-              borderRadius: const BorderRadius.vertical(top: Radius.circular(12)),
+              borderRadius:
+                  const BorderRadius.vertical(top: Radius.circular(12)),
               child: Image.network(
                 imageUrl,
                 height: 150,
@@ -52,18 +53,23 @@ class ProductCard extends StatelessWidget {
                   const SizedBox(height: 4),
                   Row(
                     children: [
-                      SvgPicture.asset("assets/icons/Star_filled.svg", height: 16),
+                      SvgPicture.asset("assets/icons/Star_filled.svg",
+                          height: 16),
                       const SizedBox(width: 4),
-                      Text("$rating ($reviews)", style: Theme.of(context).textTheme.bodySmall),
+                      Text("$rating ($reviews)",
+                          style: Theme.of(context).textTheme.bodySmall),
                     ],
                   ),
                   const SizedBox(height: 6),
-                  Text("\$${price.toStringAsFixed(2)}", style: Theme.of(context).textTheme.titleLarge),
+                  Text("\₹${price.toStringAsFixed(2)}",
+                      style: Theme.of(context).textTheme.titleLarge),
                   const SizedBox(height: 8),
                   SizedBox(
                     width: double.infinity,
                     child: ElevatedButton(
-                      style: ElevatedButton.styleFrom(shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8))),
+                      style: ElevatedButton.styleFrom(
+                          shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(8))),
                       onPressed: onPress,
                       child: const Text("Add to Cart"),
                     ),

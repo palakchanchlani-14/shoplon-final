@@ -158,7 +158,7 @@ class _ProductBuyNowScreenState extends State<ProductBuyNowScreen> {
                 ),
                 SliverPadding(
                   padding:
-                  const EdgeInsets.symmetric(horizontal: defaultPadding),
+                      const EdgeInsets.symmetric(horizontal: defaultPadding),
                   sliver: SliverToBoxAdapter(
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -194,11 +194,11 @@ class _ProductBuyNowScreenState extends State<ProductBuyNowScreen> {
                     child: SizedBox(height: defaultPadding)),
                 SliverToBoxAdapter(
                   child: Padding(
-                    padding: const EdgeInsets.all(defaultPadding), // Keep const here
+                    padding:
+                        const EdgeInsets.all(defaultPadding), // Keep const here
                     child: ScratchCardWidget(), // ✅ Removed 'const'
                   ),
                 ),
-
               ],
             ),
           )
